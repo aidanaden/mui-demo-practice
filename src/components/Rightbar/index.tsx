@@ -6,7 +6,6 @@ import {
   ImageListItem,
   Typography,
 } from "@mui/material";
-import Box from "@mui/material/Box";
 import React from "react";
 
 export default function index() {
@@ -18,7 +17,7 @@ export default function index() {
       flex={2}
       p={2}
     >
-      <Box position="fixed" w={300}>
+      <Box position="fixed" width={300}>
         <Typography variant="h6" fontWeight={100}>
           Online Friends
         </Typography>
