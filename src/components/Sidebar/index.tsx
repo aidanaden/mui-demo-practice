@@ -24,7 +24,7 @@ export default function index({
   setMode,
 }: {
   mode: PaletteMode;
-  setMode: Dispatch<SetStateAction<PaletteMode>>;
+  setMode: any;
 }) {
   return (
     <Box
